@@ -53,5 +53,9 @@
     "test": "gulp test",
     "typecheck": "tsc --build src/tsconfig.json"
   },
-  "packageManager": "yarn@3.6.1"
+  "packageManager": "yarn@3.6.1",
+  "resolutions": {
+    "@eglassman/hypothesis-client-with-ai": "portal:/Users/elg571/GitRepos/hypothesis-client-with-ai",
+    "hypothesis": "portal:/Users/elg571/GitRepos/hypothesis-client-with-ai"
+  }
 }
