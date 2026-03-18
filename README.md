@@ -84,3 +84,6 @@ of the license information can be found in the included [LICENSE][license] file.
 
 [bsd2c]: http://www.opensource.org/licenses/BSD-2-Clause
 [license]: https://github.com/hypothesis/browser-extensions/blob/main/LICENSE
+
+# Local testing reminders
+make build SETTINGS_FILE=settings/chrome-prod.json
