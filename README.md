@@ -1,4 +1,6 @@
-# Hypothesis browser extension(s)
+# Hypothesis browser extension --- with AI suggestions
+
+The following README is almost entirely the README of the open source Hypothesis browser extension our code extends. The extensions, as well as updates to the links below, will be added shortly.
 
 [![BSD licensed](https://img.shields.io/badge/license-BSD-blue.svg)][license]
 
