@@ -6282,13 +6282,13 @@ __metadata:
   linkType: soft
 
 "hypothesis@npm:hypothesis-with-ai@firsttry":
-  version: 1.0.0-with-ai.3
-  resolution: "hypothesis-with-ai@npm:1.0.0-with-ai.3"
+  version: 1.0.0-with-ai.4
+  resolution: "hypothesis-with-ai@npm:1.0.0-with-ai.4"
   dependencies:
     "@anthropic-ai/sdk": ^0.80.0
     reductoai: ^0.13.0
     zod: ^4.3.6
-  checksum: 8b25340402bad870c9abe938555f96fd115586ff2f6a0db0a448efe81e58fb207397011a8355966767ea734a9208bfa2a1522c77b60d3ea7883dd5af4a3ad11c
+  checksum: aa0cedfdc0d1158bbe7b327e43ac4c6d331fc19828a8ee84c5b38fc6a19b66a37ab4a88a043b5b28f18ea1611fffa215e268bfa2870a380aade2cb3647dd7a34
   languageName: node
   linkType: hard
 
