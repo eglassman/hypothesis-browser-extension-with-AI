@@ -6267,7 +6267,7 @@ __metadata:
     git-describe: ^4.1.1
     globals: ^16.5.0
     gulp: ^5.0.1
-    hypothesis: "npm:hypothesis-with-ai@firsttry"
+    hypothesis: "portal:../hypothesis-client-with-ai"
     is-equal-shallow: ^0.1.3
     mustache: ^4.2.0
     playwright: ^1.57.0
@@ -6281,16 +6281,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"hypothesis@npm:hypothesis-with-ai@firsttry":
-  version: 1.0.0-with-ai.5
-  resolution: "hypothesis-with-ai@npm:1.0.0-with-ai.5"
+"hypothesis@portal:../hypothesis-client-with-ai::locator=hypothesis-browser-extension%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "hypothesis@portal:../hypothesis-client-with-ai::locator=hypothesis-browser-extension%40workspace%3A."
   dependencies:
     "@anthropic-ai/sdk": ^0.80.0
     reductoai: ^0.13.0
     zod: ^4.3.6
-  checksum: 1541438d474906849a564539fdefdafec6bf51f4e540aeef7c2a977732d62fd1b4cd666afdeaf5fc6659fcaf9b8ec9c865aea9f70631d341d2191ea093b38375
   languageName: node
-  linkType: hard
+  linkType: soft
 
 "iconv-lite@npm:0.6.3, iconv-lite@npm:^0.6.2, iconv-lite@npm:^0.6.3":
   version: 0.6.3
