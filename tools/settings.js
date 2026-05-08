@@ -37,7 +37,7 @@ function getVersion(buildType) {
   }
 
   const version = `${gitInfo.semver}.${gitInfo.distance}`;
-  let versionName = 'Official Build';
+  let versionName = '';
 
   if (buildType !== 'production') {
     versionName = `${gitInfo.hash}${gitInfo.dirty ? '.dirty' : ''}`;
